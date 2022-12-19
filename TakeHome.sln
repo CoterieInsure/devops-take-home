@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakeHome", "TakeHome\TakeHome.csproj", "{9992F64C-E20C-429D-94BB-9FB8ABAAB44C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakeHome.UnitTests", "TakeHome.UnitTests\TakeHome.UnitTests.csproj", "{9BDDDEE0-8068-45C7-9AAE-17D6E6E39A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakeHome.Contracts", "TakeHome.Contracts\TakeHome.Contracts.csproj", "{BB098D63-561F-46DD-AF17-98E08C95841B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A9BD714E-E0FC-4FDB-AADD-8D526F060076}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9992F64C-E20C-429D-94BB-9FB8ABAAB44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9992F64C-E20C-429D-94BB-9FB8ABAAB44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9992F64C-E20C-429D-94BB-9FB8ABAAB44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9992F64C-E20C-429D-94BB-9FB8ABAAB44C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDDDEE0-8068-45C7-9AAE-17D6E6E39A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDDDEE0-8068-45C7-9AAE-17D6E6E39A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDDDEE0-8068-45C7-9AAE-17D6E6E39A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDDDEE0-8068-45C7-9AAE-17D6E6E39A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB098D63-561F-46DD-AF17-98E08C95841B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB098D63-561F-46DD-AF17-98E08C95841B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB098D63-561F-46DD-AF17-98E08C95841B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB098D63-561F-46DD-AF17-98E08C95841B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9992F64C-E20C-429D-94BB-9FB8ABAAB44C} = {A9BD714E-E0FC-4FDB-AADD-8D526F060076}
+		{BB098D63-561F-46DD-AF17-98E08C95841B} = {A9BD714E-E0FC-4FDB-AADD-8D526F060076}
+		{9BDDDEE0-8068-45C7-9AAE-17D6E6E39A1A} = {A9BD714E-E0FC-4FDB-AADD-8D526F060076}
+	EndGlobalSection
+EndGlobal
